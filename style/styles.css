@@ -1,0 +1,397 @@
+
+.log-css{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    left: 40px;
+}
+.css-h1{
+    position: relative;
+    left: 65px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.log-html{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    left: 50px;
+    margin-top: 8px;
+}
+.html-h1{
+    position: relative;
+    left: 60px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.card-javascript{
+    position: relative;
+    left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.javascript-log{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 40px;
+    margin-top: 0px;
+}
+
+.bootstrap-log{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    top: 5px;
+}
+.card-bootstrap{
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+}
+.sql-log{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    left: 60px;
+    top: 13px;
+}
+.sql-h1{
+    position: relative;
+    left: 60px;
+    font-size: 19px;
+    
+}
+.img-thumbnail{
+    width: 100%;
+}
+ 
+ 
+.h2-habilidades{
+    text-align:center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    position: relative;
+}
+.react-log{
+    position: relative;
+    width: 90px;
+    height:90px;
+    left: 50px;
+    top: 5prgb(255, 10, 10)
+}
+.h1-react{
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+}
+
+.log-equipo{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 50px;
+    margin-top: 10px;
+}
+.h1-equipo{
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+}
+.liderazgo-log{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    left: 60px;
+    margin-top: 25px;
+}
+.h1-liderazgo{
+    position: relative;
+    left: 42px;
+    font-family: sans-serif;
+    font-size: 20px;
+    top:10px;
+}
+.adaptabilidad-log{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    left: 50px;
+    margin-top: 15px;
+     
+
+}
+.adaptabilidad-h1{
+    position: relative;
+    left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 10px;
+}
+ 
+.hover{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.hover:hover{
+    transform: scale(1.2);
+}
+.inst-link{
+    position: relative;
+    left: 10px;
+    bottom:  2px; 
+}
+.linkedin-a{
+    position: relative;
+    left: 20px;
+    bottom:  2px; 
+}
+.linkedin-im{
+    width: 30px;
+    height: 30px;
+}
+.github-a{
+    position: relative;
+    left: 30px;
+    bottom:  2px; 
+}
+.github-img{
+    width: 30px;
+    height: 30px;
+}
+ 
+@media (min-width:280px){
+    .card{
+        position: relative;
+        left: 28px;
+        margin-top: 9px;
+    }
+    .card-2{
+        width: 13rem;
+     }
+}
+@media (min-width:320px) {
+    .card{
+        position: relative;
+        left: 45px;
+        margin-top: 9px;
+    }
+     .card{
+        width: 12rem; 
+   }
+   
+    
+}
+@media (min-width:360px) {
+    .card{
+        position: relative;
+        left: 65px;
+        margin-top: 9px;
+    }
+
+    
+    
+}
+@media (min-width:375px) {
+    .card{
+        position: relative;
+        left: 80px;
+        margin-top: 9px;
+    }
+
+    
+    
+}
+@media (min-width:390px) {
+    .card{
+        position: relative;
+        left: 95px;
+        margin-top: 10px;
+    }
+    .card-2{
+        width: 16rem;
+        position: relative;
+        left: 50px;
+     }
+    
+}
+@media (min-width:412px) {
+    .card{
+        position: relative;
+        left: 100px;
+        margin-top: 10px;
+    }
+    .card-2{
+        width: 16rem;
+        position: relative;
+        left: 70px;
+     }
+     .footer-con{
+        position: relative;
+        top: 320px;
+    }    
+    
+}
+@media (min-width:540px) {
+    .card{
+        position: relative;
+        left: 170px;
+        margin-top: 9px;
+    }
+
+    
+    
+}
+@media (min-width:768px){
+    .footer{
+        position: relative;
+        top: 570px;
+    }    
+    .card{
+        position: relative;
+       left: -20px;
+        margin-top: 10px;
+        top: 150px;
+    }
+    .h2-habilidades{
+        position: relative;
+        top: 150px;
+    }
+}
+ 
+@media (min-width:912px){
+    .footer{
+        position: relative;
+        top: 760px;
+    }    
+    .footer-main{
+        position: relative;
+        top: 100px;
+    }
+    .footer-tecno{
+        position: relative;
+        top: 250px;
+    }
+    
+    .footer-serv{
+        position: relative;
+        top: 250px;
+    }
+    .card{
+        position: relative;
+        left: 20px;
+        margin-top: 10px;
+        top: 300px;
+    }
+    .card2{
+        position: relative;
+        left: 50px;
+        margin-top: 10px;
+        top: 250px;
+    }
+    .h2-habilidades{
+        position: relative;
+        top: 150px;
+    }
+}
+ 
+@media (min-width:1024px){
+    .card{
+        position: relative;
+        left: 20px;
+        margin-top: 10px;
+        top: 200px;
+    }
+    .h1-titel{
+       position: relative;
+       top: 70px;
+    }
+    .card2{
+        position: relative;
+        left: 60px;
+        margin-top: 10px;
+        top: 150px;
+    }
+    .footer{
+         position: relative;
+        top: 320px;
+    }
+}
+@media (min-width:1200px){
+     .card-2{
+        width: 23rem;
+     }
+     .h1-titel{
+        position: relative;
+        top: 70px;
+     }
+}
+ 
+ .seo-img{
+    width: 70px;
+    height: 70px;
+    margin-top: 30px;
+ }
+.h1-titel{
+    text-align: center;
+    font-family: cursive;
+    text-decoration: underline;
+    color: white;
+    justify-content: center;
+}
+ 
+.hover-img{
+    transition: 0.5s;
+    object-fit: cover;
+   
+}
+.hover-img:hover{
+    transform: scale(1.2)
+}
+.hover-btn{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.hover-btn:hover{
+    transform: scale(1.2)
+}
+
+.inst-img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.inst-img:hover{
+    transform: scale(1.2)
+}
+.linkedin-im{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.linkedin-im:hover{
+    transform: scale(1.2)
+}
+.github-img{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.github-img:hover{
+    transform: scale(1.2)
+} 
+.img-home{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.img-home:hover{
+    transform: scale(1.2)
+}
+.boton-home{
+    transition: 0.5s;
+    object-fit: cover;
+}
+.boton-home:hover{
+    transform: scale(1.2)
+}

@@ -1,0 +1,226 @@
+
+
+
+
+
+
+
+
+
+@media (min-width: 280px) {
+ 
+    .card {
+      &{position: relative;
+      left: 28px;
+      margin-top: 9px;}
+    }
+    .card-2 {
+      &{width: 13rem;}
+    }
+    .img-ext{
+      position: relative;
+      left: 70px;
+    }
+  }
+  @media (min-width: 320px) {
+    .card {
+     &{ position: relative;
+      left: 45px;
+      margin-top: 9px;}
+    }
+    .card {
+      &{width: 12rem;}
+    }
+  }
+  @media (min-width: 360px) {
+    .card {
+      &{position: relative;
+      left: 65px;
+      margin-top: 9px;}
+    }
+    .img-ext{
+      position: relative;
+      left: 100px;
+    }
+  }
+  @media (min-width: 375px) {
+    .card {
+      &{position: relative;
+      left: 80px;
+      margin-top: 9px;}
+    }
+  }
+  @media (min-width: 390px) {
+    .card {
+      &{position: relative;
+      left: 95px;
+      margin-top: 10px;}
+    }
+    .card-2 {
+      &{width: 16rem;
+      position: relative;
+      left: 50px;}
+    }
+  }
+  @media (min-width: 412px) {
+    .img-ext{
+      position: relative;
+      left: 130px;
+    }
+    .card {
+      &{position: relative;
+      left: 100px;
+      margin-top: 10px;}
+    }
+    .card-2 {
+      &{width: 16rem;
+      position: relative;
+      left: 70px;}
+    }
+    .footer-con {
+      &{position: relative;
+      top: 320px;}
+    }
+  }
+  @media (min-width: 540px) {
+    .img-ext{
+      position: relative;
+      left: 190px;
+    }
+    .card {
+      &{position: relative;
+      left: 170px;
+      margin-top: 9px;}
+    }
+  }
+  @media (min-width: 768px) {
+    .img-home {
+      &{
+       transition: 0.5s;
+       -o-object-fit: cover;
+          object-fit: cover;
+      } 
+      &:hover{
+       transform: scale(1.2);
+      }
+     }
+     .img-ext{
+    
+      @extend .img-home;
+      width: 128px;
+      padding: 10px;
+      
+    }
+  .card{
+    &{
+      box-shadow: 10px 20px 10px rgb(156, 151, 151);
+      transition: 0.5s;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    &:hover{
+      transform: scale(1.2);
+    }
+    
+   }
+    .img-ext{
+      position: relative;
+      left: 270px;
+    }
+    .footer {
+      &{position: relative;
+      top: 590px;}
+    }
+    .cont{
+      position: relative;
+      top: 250px;
+      font-size: 25px;
+    }
+
+    .card {
+      &{position: relative;
+      left: -20px;
+      margin-top: 10px;
+      top: 150px;}
+    }
+    .h2-habilidades {
+      &{position: relative;
+      top: 150px;}
+    }
+  }
+  @media (min-width: 912px) {
+    .img-ext{
+      position: relative;
+      left: 70px;
+    }
+    .footer {
+      &{position: relative;
+      top: 775px;}
+    }
+    .footer-main {
+      &{position: relative;
+      top: 100px;}
+    }
+    .footer-tecno {
+      &{position: relative;
+      top: 250px;}
+    }
+    .footer-serv {
+      &{position: relative;
+      top: 250px;}
+    }
+    .card {
+      &{position: relative;
+      left: 20px;
+      margin-top: 10px;
+      top: 300px;}
+    }
+    .card2 {
+      &{position: relative;
+      left: 50px;
+      margin-top: 10px;
+      top: 250px;}
+    }
+    .h2-habilidades {
+      &{position: relative;
+      top: 150px;}
+    }
+  }
+  @media (min-width: 1024px) {
+    .cont{
+      position: relative;
+      top: 150px;
+      font-size: 25px;
+    }
+    .card {
+      &{position: relative;
+      left: 20px;
+      margin-top: 10px;
+      top: 200px;}
+    }
+    .h1-titel {
+      &{position: relative;
+      top: 70px;}
+    }
+    .card2 {
+      &{position: relative;
+      left: 60px;
+      margin-top: 10px;
+      top: 150px;}
+    }
+    .footer {
+      &{position: relative;
+      top: 320px;}
+    }
+  }
+  @media (min-width: 1200px) {
+     .card-2 {
+    
+      &{width: 23rem;}
+    }
+    .h1-titel {
+      &{position: relative;
+      top: 70px;}
+    }
+  }
+ 

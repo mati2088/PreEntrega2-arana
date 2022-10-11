@@ -1,0 +1,97 @@
+$white:white;
+$left:60px;
+
+
+
+.html-h2 {
+    position: relative;
+    left: $left;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+
+.sql-h2 {
+    position: relative;
+    left: $left;
+    font-size: 19px;
+  }
+  .h2-habilidades {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    color: $white;
+    font-size: 40px;
+    position: relative;
+  }
+
+  .h2-react {
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+  }
+  
+  
+  .h2-equipo {
+    font-size: 18px;
+    position: relative;
+    left: 10px;
+  }
+  
+  
+  
+  .h2-liderazgo {
+    position: relative;
+    left: 42px;
+    font-family: sans-serif;
+    font-size: 20px;
+    top: 10px;
+  }
+  
+  
+  
+  .adaptabilidad-h2 {
+    position: relative;
+    left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 10px;
+  }  
+  
+.h1-titel {
+    text-align: center;
+    
+    text-decoration: underline;
+    color: white;
+    justify-content: center;
+  }
+  .css-h2{
+    position: relative;
+    left: 65px;
+    font-family: sans-serif;
+    font-size: 15px;
+  }
+  .card-javascript{
+    position: relative;
+    left: 65px;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  .h2-cont{
+   font-size: 30px;
+   color: white;
+   position: relative;
+   left: 150px;
+  }
+  
+.card-javascript {
+  &{position: relative;
+  left: 40px;
+  font-family: sans-serif;}
+}
+
+.card-bootstrap {
+    &{position: relative;
+    left: 40px;
+  font-size: 20px;}
+}

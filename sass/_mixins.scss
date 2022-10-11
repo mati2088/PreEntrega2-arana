@@ -1,0 +1,20 @@
+@mixin fotosIndex($ancho,$largo){
+    width: $ancho;
+    height: $largo;
+ 
+}
+
+.foto-1{
+    @include fotosIndex(400px,400px)
+}
+.foto-2{
+    @include fotosIndex(400px,400px)
+}
+ 
+.foto-2{
+    @include fotosIndex(500px,400px)
+}
+
+
+ 
+ 

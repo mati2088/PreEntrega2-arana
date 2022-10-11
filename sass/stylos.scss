@@ -1,0 +1,60 @@
+@import 'medias';
+@import 'logos';
+@import 'textos';
+@import 'cards';
+@import 'contacto';
+@import 'mixins';
+ 
+ 
+* {
+    padding: 0px;
+    margin: 0;
+  }
+
+ 
+  
+   /*agrego una img al body */
+  .bodySec{
+       &{
+        background-color: rgb(94, 91, 91);
+       } 
+  }
+  .index-body{
+     &{ background-color: rgb(208, 206, 206);}  
+  }
+ 
+
+.inst-link {
+    &{
+        position: relative;
+        left: 10px;
+        bottom: 2px;
+    }
+  
+  }
+  
+.linkedin-a {
+    &{
+        position: relative;
+        left: 20px;
+        bottom: 2px;
+    }
+   
+  }
+  
+  
+  
+.github-a {
+    &{
+        position: relative;
+    left: 30px;
+    bottom: 2px;
+    }
+    
+  }
+  
+  
+ 
+  .p-footer{
+    color: white;
+  }

@@ -92,6 +92,19 @@
       left: 170px;
       margin-top: 9px;}
     }
+    
+  }
+  @media (min-width: 576px) {
+    .img-ext{
+      position: relative;
+      right: 100px;
+    }
+    .card {
+      &{position: relative;
+        left: -25px;
+       
+      margin-top: 9px;}
+    }
   }
   @media (min-width: 768px) {
     .img-home {
